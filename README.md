@@ -31,6 +31,8 @@ python -m venv venv
 ### Overview
 This repository contains a solution for sorting packages in Smarter Technology’s robotic automation factory. The goal is to dispatch packages to the correct stack based on their volume and mass.
 
+- The source code for the solution can be found in the [main.py](main.py) file.
+
 ### Sorting Rules
 - **Bulky**: Volume ≥ 1,000,000 cm³ or any dimension ≥ 150 cm.
 - **Heavy**: Mass ≥ 20 kg.
